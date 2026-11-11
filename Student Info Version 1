@@ -4,7 +4,6 @@ Section = str(input("Enter section: "))
 Subject = str(input("Enter favorite subject: "))
 
 
-
 print("Name:", Firstname, Lastname)
 print("Section:", Section.)
 print("Favorite Subject:", Subject)
