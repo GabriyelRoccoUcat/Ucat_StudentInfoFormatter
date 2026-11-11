@@ -1,0 +1,15 @@
+Firstname = str(input("Enter first name: "))
+Lastname = str(input("Enter last name: "))
+Section = str(input("Enter section: "))
+Subject = str(input("Enter favorite subject: "))
+
+print("Formatted output: ")
+Formattedfirst = (Firstname.strip().title())
+Formattedlast = (Lastname.strip().title())
+
+
+print("Name:", Formattedfirst, Formattedlast)
+print("Name code:", Formattedfirst.upper(), Formattedlast.upper())
+print("Section:", Section.strip().upper())
+print("Favorite Subject:", Subject.strip().title())
+print(len(Formattedfirst + " " + Formattedlast))
